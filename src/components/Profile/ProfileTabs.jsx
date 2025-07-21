@@ -18,15 +18,16 @@ const ProfileTabs = () => {
 					Posts
 				</Text>
 			</Flex>
-
-			<Flex alignItems={"center"} p='3' gap={1} cursor={"pointer"}>
+        <button >
+			<Flex borderTop={"1px solid white"} alignItems={"center"} p='3' gap={1} cursor={"pointer"}>
 				<Box fontSize={20}>
 					<BsBookmark />
 				</Box>
 				<Text fontSize={12} display={{ base: "none", sm: "block" }}>
-					Saved
+					GLAMBOARD
 				</Text>
 			</Flex>
+			</button>
 
 			<Flex alignItems={"center"} p='3' gap={1} cursor={"pointer"}>
 				<Box fontSize={20}>

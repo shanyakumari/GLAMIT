@@ -1,7 +1,7 @@
 import { Box, Flex, Tooltip } from "@chakra-ui/react";
-import { NotificationsLogo } from "../../assets/constants";
+import { BsBookmark } from "react-icons/bs";
 
-const Notifications = () => {
+const Glamboard = () => {
 	return (
 		<Tooltip
 			hasArrow
@@ -20,11 +20,11 @@ const Notifications = () => {
 				w={{ base: 10, md: "full" }}
 				justifyContent={{ base: "center", md: "flex-start" }}
 			>
-				<NotificationsLogo />
-				<Box display={{ base: "none", md: "block" }}>Shopping Events</Box>
+				<BsBookmark />
+				<Box display={{ base: "none", md: "block" }}>Glamboard</Box>
 			</Flex>
 		</Tooltip>
 	);
 };
 
-export default Notifications;
+export default Glamboard;
